@@ -21,6 +21,8 @@ public:
 
 	Student(int numberOfCourses, string n, string sid);
 
+	Student();
+
 	void resetCourses(int numberOfCourses);
 
 	~Student();// Destructor: function that is called when the object becomes

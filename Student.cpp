@@ -38,6 +38,10 @@ Student::Student(int numberOfCourses, string n, string sid)
 	studentCourses = new Course[numberOfCourses];
 }
 
+Student::Student():Student(10,"Not set yet","Not set yet")
+{
+}
+
 void Student::resetCourses(int numberOfCourses)
 {
 	delete[] studentCourses;

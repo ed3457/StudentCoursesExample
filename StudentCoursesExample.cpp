@@ -10,6 +10,8 @@ int main()
 	cout<<student1.getCourse(0).getName();
 
 
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
