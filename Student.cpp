@@ -22,11 +22,12 @@ string Student::getName()
 
 void Student::setCourse(int index, Course c)
 {
+	studentCourses[index] = c;
 }
 
 Course Student::getCourse(int index)
 {
-	return Course();
+	return studentCourses[index];
 }
 
 Student::Student(int numberOfCourses, string n, string sid)

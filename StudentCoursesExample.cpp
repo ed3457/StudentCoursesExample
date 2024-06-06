@@ -2,10 +2,14 @@
 //
 
 #include <iostream>
-
+#include "Student.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	Student student1(5, "James", "1234");
+
+	cout<<student1.getCourse(0).getName();
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
