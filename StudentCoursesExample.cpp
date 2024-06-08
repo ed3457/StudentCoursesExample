@@ -7,10 +7,25 @@ int main()
 {
 	Student student1(5, "James", "1234");
 
-	cout<<student1.getCourse(0).getName();
+	//cout<<student1.getCourse(0).getName();
 
 
+	Student* csc2110 = new Student[13];
 
+
+	for (int i = 0; i < 13; i++) // loop through all csc2110 array
+	{
+		
+		for (int j=0; j < 10; j++)// loop through all the courses for each student
+		{
+			cout << csc2110[i].getCourse(j).getName() << endl;
+
+		}
+
+		cout << "===========\n";
+
+
+	}
 
 }
 
